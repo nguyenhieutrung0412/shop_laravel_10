@@ -7,13 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Model\Relations\HasMany;
 
+
+
+
 class Product extends Model
 {
     use HasFactory;
 
     // get the category thay owns the Product
-    public function category(): BelongsTo{
-        return $this->belongsTo(Category::class);
+    public function category(){
+        return $this->belongsTo(Category::class,'cate_id','id');
     }
 
     //get the reviews for the product

@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Fontend\UserController;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Frontend\UserController;
+use App\Http\Controllers\Frontend\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,9 +37,7 @@ Route::post('/register', [UserController::class, 'register_account']);
 
 Route::get('/logout', [UserController::class, 'logout']);
 // End route Auth
-Route::get('/', function () {
-    return view('frontend.pages.index');
-});
+Route::get('/', [HomeController::class, 'getHome']);
 Route::get('/shop-list', function () {
     return view('frontend.pages.shop_list');
 });
