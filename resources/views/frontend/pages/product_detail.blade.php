@@ -27,47 +27,47 @@
                                             <div class="product_tab_button">    
                                                 <ul class="nav" role="tablist">
                                                     <li>
-                                                        <a class="active" data-toggle="tab" href="#p_tab1" role="tab" aria-controls="p_tab1" aria-selected="false"><img src="img\cart\cart.jpg" alt=""></a>
+                                                        <a class="active" data-toggle="tab" href="#p_tab1" role="tab" aria-controls="p_tab1" aria-selected="false"><img src="{{asset('img\cart\cart.jpg')}}" alt=""></a>
                                                     </li>
                                                     <li>
-                                                         <a data-toggle="tab" href="#p_tab2" role="tab" aria-controls="p_tab2" aria-selected="false"><img src="img\cart\cart2.jpg" alt=""></a>
+                                                         <a data-toggle="tab" href="#p_tab2" role="tab" aria-controls="p_tab2" aria-selected="false"><img src="{{asset('img\cart\cart2.jpg')}}" alt=""></a>
                                                     </li>
                                                     <li>
-                                                       <a data-toggle="tab" href="#p_tab3" role="tab" aria-controls="p_tab3" aria-selected="false"><img src="img\cart\cart4.jpg" alt=""></a>
+                                                       <a data-toggle="tab" href="#p_tab3" role="tab" aria-controls="p_tab3" aria-selected="false"><img src="{{asset('img\cart\cart4.jpg')}}" alt=""></a>
                                                     </li>
                                                 </ul>
                                             </div> 
                                             <div class="tab-content produc_tab_c">
                                                 <div class="tab-pane fade show active" id="p_tab1" role="tabpanel">
                                                     <div class="modal_img">
-                                                        <a href="#"><img src="img\product\product13.jpg" alt=""></a>
+                                                        <a href="#"><img src="{{asset('img\product\product13.jpg')}}" alt=""></a>
                                                         <div class="img_icone">
-                                                           <img src="img\cart\span-new.png" alt="">
+                                                           <img src="{{asset('img\cart\span-new.png')}}" alt="">
                                                        </div>
                                                         <div class="view_img">
-                                                            <a class="large_view" href="img\product\product13.jpg"><i class="fa fa-search-plus"></i></a>
+                                                            <a class="large_view" href="{{asset('img\product\product13.jpg')}}"><i class="fa fa-search-plus"></i></a>
                                                         </div>    
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="p_tab2" role="tabpanel">
                                                     <div class="modal_img">
-                                                        <a href="#"><img src="img\product\product14.jpg" alt=""></a>
+                                                        <a href="#"><img src="{{asset('img\product\product14.jpg')}}" alt=""></a>
                                                         <div class="img_icone">
-                                                           <img src="img\cart\span-new.png" alt="">
+                                                           <img src="{{asset('img\cart\span-new.png')}}" alt="">
                                                        </div>
                                                         <div class="view_img">
-                                                            <a class="large_view" href="img\product\product14.jpg"><i class="fa fa-search-plus"></i></a>
+                                                            <a class="large_view" href="{{asset('img\product\product14.jpg')}}"><i class="fa fa-search-plus"></i></a>
                                                         </div>     
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="p_tab3" role="tabpanel">
                                                     <div class="modal_img">
-                                                        <a href="#"><img src="img\product\product15.jpg" alt=""></a>
+                                                        <a href="#"><img src="{{asset('img\product\product15.jpg')}}" alt=""></a>
                                                         <div class="img_icone">
-                                                           <img src="img\cart\span-new.png" alt="">
+                                                           <img src="{{asset('img\cart\span-new.png')}}" alt="">
                                                        </div>
                                                         <div class="view_img">
-                                                            <a class="large_view" href="img\product\product15.jpg"> <i class="fa fa-search-plus"></i></a>
+                                                            <a class="large_view" href="{{asset('img\product\product15.jpg')}}"> <i class="fa fa-search-plus"></i></a>
                                                         </div>     
                                                     </div>
                                                 </div>

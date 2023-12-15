@@ -40,11 +40,11 @@
                             @csrf
                             <p>   
                                 <label>Họ và tên  <span>*</span></label>
-                                <input type="text" name="name">
+                                <input type="text" name="name" placeholder="Nguyễn Văn Sỹ">
                              </p>
                             <p>   
                                 <label>Số điện thoại  <span>*</span></label>
-                                <input type="text" name="phone">
+                                <input type="text" name="phone" placeholder="0327485659">
                              </p>
                              <p>   
                                 <label>Mật khẩu <span>*</span></label>

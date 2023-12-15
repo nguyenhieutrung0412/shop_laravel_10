@@ -8,8 +8,8 @@
                                                 <ul>
                                                     <li class="languages"><a href="#"><img src="img\logo\fontlogo.jpg" alt=""> English <i class="fa fa-angle-down"></i></a>
                                                         <ul class="dropdown_languages">
-                                                            <li><a href="#"><img src="img\logo\fontlogo.jpg" alt=""> English</a></li>
-                                                            <li><a href="#"><img src="img\logo\fontlogo2.jpg" alt=""> French </a></li>
+                                                            <li><a href="#"><img src="{{asset('img\logo\fontlogo.jpg')}}" alt=""> English</a></li>
+                                                            <li><a href="#"><img src="{{asset('img\logo\fontlogo2.jpg')}}" alt=""> French </a></li>
                                                         </ul>   
                                                     </li> 
 
@@ -29,7 +29,7 @@
                                                     <li><a href="wishlist.html" title="wishlist">My wishlist</a></li>
                                                     <li><a href="my-account.html" title="My account">My account</a></li>
                                                     <li><a href="cart.html" title="My cart">My cart</a></li>
-                                                    <li><a href="login.html" title="Login">Login</a></li>
+                                                    <li><a href="{{route('login')}}" title="Login">Login</a></li>
                                                 </ul>
                                             </div>   
                                         </div>
@@ -43,7 +43,7 @@
                                        <!--logo start-->
                                         <div class="col-lg-3 col-md-3">
                                             <div class="logo">
-                                                <a href="index.html"><img src="img\logo\logo.jpg.png" alt=""></a>
+                                                <a href="index.html"><img src="{{asset('img\logo\logo.jpg.png')}}" alt=""></a>
                                             </div>
                                         </div>
                                         <!--logo end-->
@@ -113,10 +113,10 @@
                                                 <div class="main_menu d-none d-lg-block">
                                                     <nav>
                                                         <ul>
-                                                            <li class="active"><a href="index.html">Home</a>
+                                                            <li class="active"><a href="{{route('home')}}">Home</a>
                                                                
                                                             </li>
-                                                            <li><a href="shop.html">shop</a>
+                                                            <li><a href="{{route('shop_list')}}">shop</a>
                                                                 <div class="mega_menu jewelry">
                                                                     <div class="mega_items jewelry">
                                                                         <ul>
@@ -172,10 +172,10 @@
                                                                     </div>
                                                                     <div class="mega_bottom fix">
                                                                         <div class="mega_thumb">
-                                                                            <a href="#"><img src="img\banner\banner1.jpg" alt=""></a>
+                                                                            <a href="#"><img src="{{asset('img\banner\banner1.jpg') }}" alt=""></a>
                                                                         </div>
                                                                         <div class="mega_thumb">
-                                                                            <a href="#"><img src="img\banner\banner2.jpg" alt=""></a>
+                                                                            <a href="#"><img src="{{asset('img\banner\banner2.jpg') }}" alt=""></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -204,7 +204,7 @@
                                                                             </ul>
                                                                         </div>
                                                                         <div class="mega_items">
-                                                                            <a href="#"><img src="img\banner\banner3.jpg" alt=""></a>
+                                                                            <a href="#"><img src="{{asset('img\banner\banner3.jpg') }}" alt=""></a>
                                                                         </div>
                                                                     </div>
 
@@ -327,10 +327,10 @@
                                                                     </div>
                                                                     <div>
                                                                         <div>
-                                                                            <a href="#"><img src="img\banner\banner1.jpg" alt=""></a>
+                                                                            <a href="#"><img src="{{asset('img\banner\banner1.jpg') }}" alt=""></a>
                                                                         </div>
                                                                         <div>
-                                                                            <a href="#"><img src="img\banner\banner2.jpg" alt=""></a>
+                                                                            <a href="#"><img src="{{asset('img\banner\banner2.jpg') }}" alt=""></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -359,7 +359,7 @@
                                                                             </ul>
                                                                         </div>
                                                                         <div>
-                                                                            <a href="#"><img src="img\banner\banner3.jpg" alt=""></a>
+                                                                            <a href="#"><img src="{{asset('img\banner\banner3.jpg')}}" alt=""></a>
                                                                         </div>
                                                                     </div>
 
@@ -397,7 +397,7 @@
                                                                                 <li><a href="cart.html">cart</a></li>
                                                                                 <li><a href="checkout.html">Checkout  </a></li>
                                                                                 <li><a href="wishlist.html">Wishlist</a></li>
-                                                                                <li><a href="login.html">Login</a></li>
+                                                                                <li><a href="{{route('login')}}">Login</a></li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>

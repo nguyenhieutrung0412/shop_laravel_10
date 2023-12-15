@@ -6,16 +6,19 @@
         <title>Coron - Fashion eCommerce Bootstrap4 Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="img\favicon.png">
 		
 		<!-- all css here -->
-        <link rel="stylesheet" href="css\bootstrap.min.css">
-        <link rel="stylesheet" href="css\plugin.css">
-        <link rel="stylesheet" href="css\bundle.css">
-        <link rel="stylesheet" href="css\style.css">
-        <link rel="stylesheet" href="css\responsive.css">
-        <script src="js\vendor\modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="{{asset('css\bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css\plugin.css')}}">
+        <link rel="stylesheet" href="{{asset('css\bundle.css')}}">
+        <link rel="stylesheet" href="{{asset('css\style.css')}}">
+        <link rel="stylesheet" href="{{asset('css\responsive.css')}}">
+        
+        <script src="{{asset('js\vendor\modernizr-2.8.3.min.js')}}"></script>
+        <script src="{{asset('js\vendor\jquery-1.12.0.min.js')}}"></script>
     </head>
     <body>
             <!-- Add your site or application content here -->
@@ -46,11 +49,11 @@
       
 		
 		<!-- all js here -->
-        <script src="js\vendor\jquery-1.12.0.min.js"></script>
-        <script src="js\popper.js"></script>
-        <script src="js\bootstrap.min.js"></script>
-        <script src="js\ajax-mail.js"></script>
-        <script src="js\plugins.js"></script>
-        <script src="js\main.js"></script>
+     
+        <script src="{{asset('js\popper.js')}}"></script>
+        <script src="{{asset('js\bootstrap.min.js')}}"></script>
+        <script src="{{asset('js\ajax-mail.js')}}"></script>
+        <script src="{{asset('js\plugins.js')}}"></script>
+        <script src="{{asset('js\main.js')}}"></script>
     </body>
 </html>
